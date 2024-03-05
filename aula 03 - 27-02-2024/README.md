@@ -73,4 +73,9 @@ func main() {
 }
 ```
 
-Observação:O operador `:=` não pode ser usado para reatribuir valores a variáveis já declaradas.
+Observação: O operador `:=` não pode ser usado para reatribuir valores a variáveis já declaradas.
+
+
+## Exercício 
+1. Replique os exemplos mencionados no resumo e brinque com eles. Tente criar novas variáveis e atribuir valores a elas. Tente também reatribuir valores a variáveis já declaradas.
+2. Faça uma aplicação que receba 2 números do usuário e imprima a soma deles. Utilize a função `fmt.Scanln()` para receber os números do usuário.
