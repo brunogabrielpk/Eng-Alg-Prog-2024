@@ -68,7 +68,7 @@ Por fim nós escrevemos um programa que pede ao usuário para fornecer números 
 a soma desses números.
 
 
-## Execícios
+## Exercícios
 Para praticar o uso do `fmt.Scanln`, escreva 3 novos programas.
 1 programa que pede ao usuário para fornecer 2 números e retorna o resultado da subtração entre eles.
 1 programa que pede ao usuário para fornecer 2 números e retorna o resultado da multiplicação entre eles.
