@@ -17,29 +17,33 @@ Os itens marcados com * são itens obrigatórios.
 ## Primeiramente, o Menus de opções
 O programa deve começar mostrando um menu na tela bem bonito com as
 seguintes opções:
-[1] - Cadastrar pessoas
-[2] - Pesquisar pessoa
-[3] - listar todas pessoas
-[e] - Sair do programa
-[R] - Resetar a base de dados
+- [1] - Cadastrar pessoas
+- [2] - Pesquisar pessoa
+- [3] - listar todas pessoas
+- [e] - Sair do programa
+- [R] - Resetar a base de dados
 
 ## [1] - Cadastrar usuário
 Como o nome diz, esta opção vai cadastrar usuários.
-um vez selecionada ela vai pedindo para o usuário digitar os itens.
-Verifique cada entrada do do usuário pois itens obrigatórios não podem aceitar entradas vazias.
+Uma vez selecionada esta opção, será solicitado ao usuário que digite os itens.
+Verifique cada entrada do usuário pois itens obrigatórios não podem ser aceitos com entradas vazias ('').
+
 Se o usuário não fornecer um item obrigatório, mostre uma mensagem de erro e retorne ao menu.
 Se todos os dados forem corretos, salve a pessoa e mostre uma mensagem de sucesso ao usuário.
-após isso retorne ao menu.
+
+Após isso retorne ao menu.
 
 ## [2] - Pesquisar pessoa
-Se não houver nenhum cadastro ainda, mostra menssagem de cadastro vazio e retorna ao menu.
-Se houver pessoas cadastradas, pede para o usuário fornecer qual campo ele deseja pesquisar (nome, endereço,...)
-Pede pro usuário fornecer o valor exato a ser pesquisado e realiza pesquisa.
-Se encontrar, mostrar todos dados na tela da pessoa e retorna ao menu.
-Caso contrário, menssagem de não possível e retorn ao menu.
+Se não houver nenhuma pessoa cadastrada ainda, o programa deve mostrar uma  mensagem de informado que não há pessoas cadastrdas e depois deve retornar ao menu.
+Se houver pessoas cadastradas, pede para o usuário fornecer qual campo ele deseja pesquisar (nome, endereço,...).
+
+Deverá se pedido ao usuário que forneça o valor exato a ser pesquisado e após isso, realizar pesquisa.
+Se o valor solicitado for encontrado, mostrar todos dados na tela da pessoa e retorna ao menu.
+Caso contrário, menssagem de não possível encontrar e retornar ao menu.
+
 ## [3] - listar todas pessoas
-Se não houver nenhum cadastro ainda, mostra menssagem de cadastro vazio e retorna ao menu.
-Se houve, lista todas as pessoas na tela.
+Se não houver nenhuma pessoa cadastrada ainda, mostrar menssagem de cadastro vazio e retornar ao menu.
+Se houver, lista todas as pessoas na tela.
 
 ## [e] - Sair do programa
 Pede para o usuário confirmar se quer sair mesmo.
