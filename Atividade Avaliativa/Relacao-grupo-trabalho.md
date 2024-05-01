@@ -9,6 +9,8 @@
 | Discípulos de Ada Lovelace | 2 - Mecânica |
 | NomeDoGrupo! | 1 - Pessoas | 
 | Os < pequi > "de" {Go}iás | 2 - Mecânica|  
+| Error 404, em busca do programador perfeito| 1 - Pessoas|
+| Programadores, a era em Go | 2 - Mecânica|
 
 
 ## 0,5 pt para os grupos:
