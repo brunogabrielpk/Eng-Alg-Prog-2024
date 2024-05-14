@@ -1,8 +1,13 @@
 ## Funções em GO
 
-As funções, também conhecidas como  sub-rotinas, são muito utilizadas em programação. Um dos grandes benefícios é não precisar copiar o código todas as vezes que precisar executar aquela operação, além de deixar a leitura do código mais intuitiva.
+As funções, também conhecidas como  sub-rotinas, são muito utilizadas em programação.
+Um dos grandes benefícios é não precisar copiar o código todas as vezes que precisar executar aquela operação,
+além de deixar a leitura do código mais intuitiva.
 
-A ideia básica de uma função, implementada em alguma linguagem de programação, é encapsular um código que poderá ser invocado/chamado por qualquer outro trecho do programa. Seu significado e uso são muito parecidos com o de funções matemáticas, ou seja, existe um nome, uma definição e posterior invocação à função.
+A ideia básica de uma função, implementada em alguma linguagem de programação,
+é encapsular um código que poderá ser invocado/chamado por qualquer outro trecho do programa.
+Seu significado e uso são muito parecidos com o de funções matemáticas,
+ou seja, existe um nome, uma definição e posterior invocação à função.
 
 ### Sintaxe das funções em Go(Lang)
 Primeiramente, para podermos criar nossas próprias funções na Golang, precisamos entender qual a sintaxe utilizada para realizar a definição de uma função.
@@ -128,6 +133,6 @@ func main() {
   soma, _ := somarESubtrair(1, 2)
   fmt.Println(soma)
 }
-```ß
+```
 
 
